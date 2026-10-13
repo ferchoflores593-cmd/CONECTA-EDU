@@ -1,0 +1,1 @@
+<h1>CONECTA-EDU</h1><a href='/seguimiento'>Ver solicitudes</a>{% for r in recursos %}<div><h3>{{r[1]}}</h3><p>{{r[2]}} - {{r[3]}}</p><a href='/solicitar?recurso={{r[1]}}'>Solicitar</a></div>{% endfor %}
